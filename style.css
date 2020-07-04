@@ -1,0 +1,126 @@
+ .fa-plane
+{
+font-size:5em;
+color: white;
+position: relative;
+margin:3em 2.5em;
+
+animation-name: airplane;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-duration: 3s;
+animation-delay: 5s;
+}
+ h1{
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    overflow:hidden;
+    width:380px;
+    margin-left: 15em;
+}
+ p
+{
+    font-weight: bold;
+    font-size: 1em;
+    color:white;
+    text-align: center;
+
+}
+body{
+    background-color: #01411c;
+}
+
+@keyframes airplane
+{
+    0%
+    {
+    left:1em;
+    }
+    10%
+    {
+        left:1.5em;     
+    }
+    20%
+    {
+        left:2em;     
+    }
+    30%
+    {
+        left:2em;     
+        bottom:0.5em;
+    } 
+    
+    40%
+    {
+        left:2.5em;
+        bottom:1em;
+    }
+    50%
+    {
+        left:2.8em;
+        bottom:1.5em;
+    }
+
+    60%
+    {
+        left:3em;   
+    }
+    63%
+    {
+        left:3.3em;   
+    
+    }
+    65%
+    {
+        left:3.6em;   
+    
+    }
+    68%
+    {
+        left:4em;   
+    
+    }
+    70%
+    {
+        left:4.7em;
+    }
+    73%
+    {
+        left:5em;   
+    
+    }
+    75%
+    {
+        left:5.7em;
+    }
+    78%
+    {
+        left:6em;
+    }
+    /* descend */
+    80%
+    {
+        bottom:1.5em;
+        left:6.7em;
+    }
+    90%
+    {
+        bottom:1em;
+        left:7em;
+    }
+    95%
+    {
+        bottom:0.5em;   
+        left:7.7em;
+    }
+    100%
+    {
+        bottom:0em;   
+        left:8em;
+    }
+
+    }
